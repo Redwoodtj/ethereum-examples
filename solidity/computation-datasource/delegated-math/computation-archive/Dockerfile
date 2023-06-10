@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 MAINTAINER Oraclize "info@oraclize.it"
 
 RUN apt-get update && apt-get install bc
