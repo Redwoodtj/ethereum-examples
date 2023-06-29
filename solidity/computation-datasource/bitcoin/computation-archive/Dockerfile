@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 MAINTAINER Provable "info@provable.xyz"
 RUN apt-get update && \
     apt-get install -y \
