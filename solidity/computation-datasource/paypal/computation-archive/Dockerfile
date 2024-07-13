@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 MAINTAINER Oraclize "info@oraclize.it"
 
 RUN apt-get update && apt-get -y install python libffi6 libffi-dev python-dev python-pip libssl-dev wget build-essential
